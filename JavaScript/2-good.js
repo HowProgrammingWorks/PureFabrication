@@ -1,7 +1,7 @@
 'use strict';
 
-const v8 = require('v8');
-const fs = require('fs').promises;
+const v8 = require('node:v8');
+const fs = require('node:fs').promises;
 
 class Person {
   constructor(name, surname) {
